@@ -1,0 +1,108 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	padding: 10px 300px;
+	background-color: white;
+	border-radius: 3px;
+	opacity: 0.9;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.visuel {
+	display: inline-block;
+	padding: 40px;
+}
+
+.espace {
+	padding: 0px 20px;
+}
+
+.tel {
+
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+.mail {
+	text-decoration: none;
+}
+
+.icone {
+	font-size: 50px;
+	color: white;
+}
+
+.titre {
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+}
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+opacity: 0.8;
+}
+
+#header {
+	box-shadow: 10px 10px 30px #555;
+	text-align: center;
+}
+
+#noel-2014 {
+	text-align: left;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 60px;
+	color:red;
+	border-color: #555;
+	text-shadow: 1px 1px 12px #555;
+}
+
+#affiche1 {
+width: 1000px;
+margin: auto;
+text-align: center;
+
+}
+
+#preparer {
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+	color: yellow;
+}
+
+#logo {
+	border-radius: 30px;
+}
+
+#tous-nos-spectacles {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 22px;
+	width: 1000px;
+	text-align: center;
+	padding: 0px 134px;
+	background-color: white;
+	border-radius: 3px;
+	opacity: 0.9;
+	box-shadow: 1px 1px 12px #555;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+
+}
+
