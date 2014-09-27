@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
 	<title>Absolu Productions Spectacles de Noël 2014, Disney sur glace, REX etc...</title>
 
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -17,46 +17,68 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700' rel='stylesheet' type='text/css'>
 
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- Leave those next 4 lines if you care about users using IE8 -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
 
-<div id="mega">
+<div class="container" id="mega">
 	<video autoplay loop poster="polina.jpg" id="bgvid">
 		<source src="video/light-rain.mp4" type="video/mp4">
 	</video>
 
 	<header>
 		
-			<div id="header">
-				<div id="noel-2014" class="inline espace">NOEL 2014</div>
+		<div class="container-fluid" id="header">
+  				
+  				<div class="row">
+
+						<div id="noel-2014" class="inline espace">NOEL 2014</div>
 			
-				<img src="images/logo-absolu.png" alt="absolu productions logo" height="100px" id="logo" class="inline espace">
+						<img src="images/logo-absolu.png" alt="absolu productions logo" height="100px" id="logo" class="inline espace">
+	    		
+						<div class="inline tel espace">Tél : 01 34 34 01 01</div>	
 
-				<div class="inline tel espace">Tél : 01 34 34 01 01</div>	
-			
-				<div id="preparer" class="inline espace">Préparez 2015</div>
+						<div id="preparer" class="inline espace">Préparez 2015</div>
 
-			</div>
+	    		</div>
+  		</div>
 
-			<h1>SPECTACLE DE NOEL pour tous les Groupes</h1>
+		<h1 class="row">SPECTACLE DE NOEL pour tous les Groupes</h1>
 
 	</header>	
 
-		<div id="affiche1">
+	<div class="container-fluid" id="affiche1">
 			
-				<div id="show1" class="visuel"><img src="images/zorro-2014.png" height="250px"><p class="titre">ZORRO 2014</p></div>
+		<div class="row">	
 			
-				<div id="show2" class="visuel"><img src="images/disneysurglace-2014.png" height="250px"><p class="titre">DISNEY SUR GLACE 2014</p></div>
-			
-				<div id="show3" class="visuel"><img src="images/feteforaine-2014.png" height="250px"><p class="titre">FETE FORAINE DE NOEL 2014</p></div>
+			<div id="show2" class="visuel col-md-4 col-sm-push-4"><img src="images/disneysurglace-2014.png" height="250px"><p class="titre">DISNEY SUR GLACE 2014</p></div>
 
+			<div id="show1" class="visuel col-md-4 col-sm-pull-4">
+				<img src="images/zorro-2014.png" height="250px">
+				<p class="titre">ZORRO 2014</p>
+			</div>
+
+
+			<div id="show3" class="visuel col-md-4"><img src="images/feteforaine-2014.png" height="250px"><p class="titre">FETE FORAINE DE NOEL 2014</p></div>	
 		</div>
 
-			<div id="tous-nos-spectacles" class="inline"><p>Découvrez TOUS NOS SPECTACLES 2014</p></div>
+	</div>
 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" id="tous-nos-spectacles"><p>Découvrez TOUS NOS SPECTACLES 2014</p></div>
+			</div>
+		</div>
 </div>	
 
 		<footer>
@@ -71,6 +93,11 @@
 			</div>
 
 		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<!--c pour bootstrap-->
+		
 </body>
 </html>
 
