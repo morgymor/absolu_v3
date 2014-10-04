@@ -16,7 +16,22 @@ h1 {
 
 .navperso {
 
-	background-color: rgba(0, 56, 0, 0.7);
+	background-color: rgba(170, 0, 0, 0.8);
+	color: white;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.form-group {
+
+	navbar:left
+}
+
+.navbar-default .navbar-brand {
+	color: white;
 }
 
 .inline {
