@@ -31,10 +31,10 @@
 
 <body>
 
-<div class="container" id="mega">
-	<video autoplay loop poster="polina.jpg" id="bgvid">
-		<source src="video/ny-xmas.mp4" type="video/mp4">
-	</video>
+<div class="container-fluid" id="mega">
+	<!--<video autoplay loop poster="polina.jpg" id="bgvid">
+		<source src="ridea-argente.mp4" type="video/mp4">
+	</video><-->
     
 	<header>
 		<nav class="navbar navbar-default navperso" role="navigation">
@@ -63,7 +63,7 @@
         <div class="form-group">
           <input type="text" class="form-control" placeholder="recherche">
         </div>
-        <button type="submit" class="btn btn-default">chercher</button>
+        <button type="submit" class="btn btn-default">rechercher</button>
       </form>
           </ul>
         </li>
@@ -71,14 +71,13 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
 		<div class="container-fluid" id="header">
 
   				<div class="row">
 
 						<div id="noel-2014" class="inline espace">NOEL 2014</div>
 			
-						<img src="images/logo-absolu.png" alt="absolu productions logo" height="100px" id="logo" class="inline espace">
+						<img src="images/logo-absolu.png" alt="absolu productions logo" height="140px" id="logo" class="inline espace">
 	    		
 						<div class="inline tel espace">Tél : 01 34 34 01 01</div>	
 
@@ -95,15 +94,15 @@
 			
 		<div class="row">	
 			
-			<div id="show2" class="visuel col-md-4 col-sm-push-4"><img src="images/disneysurglace-2014.png" height="250px"><p class="titre">DISNEY SUR GLACE 2014</p></div>
+			<div id="show2" class="visuel col-md-4 col-sm-push-4"><img src="images/disneysurglace-2014.png" height="250px"><p class="titre">DISNEY SUR GLACE 2014</p><button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-md">en savoir +</button></div>
 
 			<div id="show1" class="visuel col-md-4 col-sm-pull-4">
 				<img src="images/zorro-2014.png" height="250px">
-				<p class="titre">ZORRO 2014</p>
+				<p class="titre">ZORRO 2014</p><button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-md">en savoir +</button>
 			</div>
 
 
-			<div id="show3" class="visuel col-md-4"><img src="images/feteforaine-2014.png" height="250px"><p class="titre">FETE FORAINE DE NOEL 2014</p></div>	
+			<div id="show3" class="visuel col-md-4"><img src="images/feteforaine-2014.png" height="250px"><p class="titre">FETE FORAINE DE NOEL 2014</p><button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-md">en savoir +</button></div>	
 		</div>
 
 	</div>
@@ -115,11 +114,11 @@
 		</div>
 </div>	
 
+<a href="#top"><i class="fa fa-caret-square-o-up"></i></a>
+
 		<footer>
 		
-
 			<div class="tel inline">appelez le 01 34 34 01 01</div>
-			<div class="mail inline"><a href="mailto:inf@absolu.org"/><p class="titre">envoyez nous un mail</p></div></a>
 			<div>	
 					<i class="fa fa-facebook-square icone"></i>
 					<i class="fa fa-google-plus-square icone"></i>
@@ -128,8 +127,38 @@
 
 		</footer>
 
+		<!--LES MODALES-->
+
+		<!-- Large modal -->
+			<div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  					<div class="modal-dialog modal-md">
+    					<div class="modal-content">
+
+    						<div class="modal-body">
+      
+		    					  <img class="pull-left img-modal" src="images/disneysurglace-2014.png" height="250px">
+		    					  <p id="text-modal">Dates :
+										Mercredi Samedi Dimanche
+										à 10h30 - 14h00 - 17h30
+										dates en semaine nous contacter
+										durée
+										2h00 dont un entracte
+										options :
+										LOCATION DE SALLES ANNEXES
+										Goûter Privatif SUR DEMANDE
+										prix & tarifs :
+										Pour les prix groupes à partir de 20 places
+										CONTACTEZ NOUS ou au tel 01 34 34 01 01</p>
+									<div class="clear"></div>
+		    					</div>
+		    				</div>		
+  					</div>
+			</div>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="global.js"></script>
+
 		<!--c pour bootstrap-->
 		
 </body>
