@@ -16,7 +16,7 @@ color: black;
 
 
 h1 {
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	padding: 15px 90px;
 	background-color: white;
 	text-align: center;
@@ -27,7 +27,7 @@ h1 {
 
 .navperso {
 
-	background-color: rgba(170, 0, 0, 0.8);
+	background-color: rgba(100, 0, 0, 0.8);
 	color: white;
 
 }
@@ -138,7 +138,7 @@ a:hover .fa-caret-square-o-up {
 
 #noel-2014 {
 	text-align: left;
-	font-family: 'Lobster';
+	font-family: 'Metrophobic', sans-serif;
 	font-size: 60px;
 	color:red;
 	border-color: #555;
@@ -153,7 +153,7 @@ margin: 7%;
 }
 
 #preparer {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-size: 20px;
 	color: rgb(218, 14, 193);
 }
@@ -164,7 +164,7 @@ margin: 7%;
 }
 
 #tous-nos-spectacles {
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-size: 22px;
 	text-align: center;
 	background-color: white;
